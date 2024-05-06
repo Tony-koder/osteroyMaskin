@@ -1,8 +1,9 @@
 * {
     margin: 0;
+    font-family: rWReg;
 }
 body {
-    background-image: url(truckBoi.jpg);
+    background-image: url(media/truckBoi.jpg);
     background-color: #023d8ab9;
     background-blend-mode:multiply;
 }
@@ -18,4 +19,82 @@ header {
 }
 .logo {
     height: 50px;
+}
+.buttonMania {
+    margin: 15% 10%;
+    background-color: rgba(16, 19, 173, 0.555);
+    background-blend-mode: multiply;
+    padding: 5% 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.omOssBtn {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(18, 86, 164);
+    color: #fff;
+    font-family: rWBold;
+}
+.omOssA :hover {
+    cursor: pointer;
+    animation: bubble 0.5s ease-out;
+}
+.bildegalleriBtn {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(18, 86, 164);
+    color: #fff;
+    font-family: rWBold;
+}
+.bildegalleriA :hover {
+    cursor: pointer;
+    animation: bubble 0.5s ease-out;
+}
+.prosjekterBtn {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(18, 86, 164);
+    color: #fff;
+    font-family: rWBold;
+}
+.prosjekterA :hover {
+    cursor: pointer;
+    animation: bubble 0.5s ease-out;
+}
+.maskinparkBtn {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(18, 86, 164);
+    color: #fff;
+    font-family: rWBold;
+}
+.maskinparkA :hover {
+    cursor: pointer;
+    animation: bubble 0.5s ease-out;
+}
+
+@keyframes bubble {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: rWReg;
+    src: url(media/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: rWBold;
+    src: url(media/Raleway-Bold.ttf);
 }
